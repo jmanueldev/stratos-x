@@ -1,4 +1,4 @@
-# stratos-x
+# STRATOS-X
 STRATOS is a distributed HPC orchestration platform designed for
 large-scale compute clusters.
 
