@@ -55,3 +55,23 @@ Next-generation HPC orchestration with:
 - cargo run   # node agent
 - npm start   # dashboard
 - python sdk/client.py missions/example.yaml
+
+# Running Locally
+- Start API: make run-api
+- Start node agent: make run-agent
+- Submit job: python sdk/client.py missions/example.yaml
+
+## Example Flow
+
+User submits mission
+protein-folding
+topology: mesh
+nodes: 16
+
+System performs:
+ - mission registration
+ - scheduler selects nodes
+ - topology engine generates node graph
+ - dataset staged
+ - node agents execute tasks
+ - telemetry updates cluster state
