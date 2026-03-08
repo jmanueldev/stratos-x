@@ -1,7 +1,6 @@
 version: '3'
 
 services:
-
   api:
     build: ./api
     ports:
@@ -9,3 +8,8 @@ services:
 
   scheduler:
     build: ./scheduler
+
+  web-dashboard:
+    build: ./web-dashboard
+    ports:
+      - "3000:3000"
