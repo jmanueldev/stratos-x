@@ -2,6 +2,15 @@
 STRATOS is a distributed HPC orchestration platform designed for
 large-scale compute clusters.
 
+# Core concepts:
+
+- Missions: User-submitted jobs
+- Topologies: Dynamically generated compute structures
+- Node Agents: Lightweight telemetry and task execution
+- Scheduler: Mission allocation to node cohorts
+- AI Optimizer: Learns best topology based on historical performance
+- Web Dashboard: Visualizes cluster topology, telemetry, mission progress
+
 Features
 
 - mission-based scheduling
