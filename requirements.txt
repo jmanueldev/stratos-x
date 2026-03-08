@@ -1,1 +1,4 @@
-
+torch
+pyyaml
+requests
+flask
