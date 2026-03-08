@@ -19,7 +19,7 @@ Features
 - dynamic node grouping
 - dataset staging
 
-Architecture
+# Architecture
 
 API Layer
 Scheduler
