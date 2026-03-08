@@ -23,3 +23,19 @@ Languages
 Go -> control plane
 Rust -> node agents
 Python -> client SDK
+
+Next-generation HPC orchestration with:
+
+- Mission-based scheduling
+- GPU / RDMA aware node selection
+- Distributed telemetry & checkpointing
+- Planetary-scale simulation
+- Web-based topology editor
+- Reinforcement-learning AI optimizer
+
+## Usage
+
+1. Start API: `make run-api`
+2. Run node agent: `make run-agent`
+3. Submit missions: `python sdk/client.py missions/example.yaml`
+4. Launch web dashboard: `npm start` inside `web-dashboard/`
