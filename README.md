@@ -42,7 +42,7 @@ Next-generation HPC orchestration with:
 
 # Bash
 
-1. docker-compose up
-2. cargo run   # node agent
+docker-compose up
+cargo run   # node agent
 3. npm start   # dashboard
 4. python sdk/client.py missions/example.yaml
