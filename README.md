@@ -39,3 +39,9 @@ Next-generation HPC orchestration with:
 2. Run node agent: `make run-agent`
 3. Submit missions: `python sdk/client.py missions/example.yaml`
 4. Launch web dashboard: `npm start` inside `web-dashboard/`
+
+# Bash
+docker-compose up
+cargo run   # node agent
+npm start   # dashboard
+python sdk/client.py missions/example.yaml
