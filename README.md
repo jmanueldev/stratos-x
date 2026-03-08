@@ -41,7 +41,8 @@ Next-generation HPC orchestration with:
 4. Launch web dashboard: `npm start` inside `web-dashboard/`
 
 # Bash
-docker-compose up
-cargo run   # node agent
-npm start   # dashboard
-python sdk/client.py missions/example.yaml
+
+1. docker-compose up
+2. cargo run   # node agent
+3. npm start   # dashboard
+4. python sdk/client.py missions/example.yaml
